@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smart-file-organizer"
+version = "0.1.0"
+description = "A safety-first Python CLI tool for organizing files by type."
+requires-python = ">=3.11"
+
+[tool.setuptools.packages.find]
+where = ["src"]
